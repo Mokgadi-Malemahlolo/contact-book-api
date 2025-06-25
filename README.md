@@ -33,13 +33,25 @@ This is a fully functional Contact Book web app built using *HTML, **CSS, and **
 ## 📲 Usage Instructions
 
 1. *Visit the live site*:  
-  [
+  [https://mokgadi-malemahlolo.github.io/contact-book-api/]
 
 2. *No API key required for demo* — a default valid key is already included for demonstration purposes.
 
 ---
 
 ## 📁 Project Structure
+
+## 📁 Project Structure
+
+contact-book-api/
+│
+├── index.html              # Main page showing all contacts
+├── add-contact.html        # Form to add a new contact
+├── edit-contact.html       # Form to edit existing contacts
+├── enter-api-key.html      # (Optional) API key entry page, bypassed in demo
+├── config.js               # API connection and key management
+├── style.css               # All styling for the app
+└── README.md               # Project overview and instructions
 
 
 ---
