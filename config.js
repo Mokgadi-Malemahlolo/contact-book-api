@@ -1,7 +1,7 @@
 
 
 let rootPath = "https://mysite.itvarsity.org/api/ContactBook/";
-let apiKey = checkApiKey();
+let apiKey = localStorage.getItem("apiKey") || "malemahlolomokgadi@gmail.com";
 
 function checkApiKey() {
     if (!localStorage.getItem("apiKey")) {
